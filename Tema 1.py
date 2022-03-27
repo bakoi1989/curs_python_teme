@@ -19,5 +19,5 @@ print(my_list[::2])
 print(my_list[1::2])
 
 # afiseaza o lista ce contine numerele ce sunt multipli ai numarului 3 (folosind slice)
-print(my_list[1:8:3])
+print(my_list[1:9:3])
 
