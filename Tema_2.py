@@ -69,6 +69,7 @@ print(suma_pare)
 # suma_impare = suma_numerelor_impare(6)
 # print(suma_impare)
 #
+#
 # # Ex.3 Să se scrie o funcție care citește de la tastatură și returnează valoarea dacă aceasta este un număr întreg, altfel returnează
 # # valoarea 0
 
