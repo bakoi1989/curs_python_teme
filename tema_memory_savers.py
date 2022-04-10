@@ -78,7 +78,7 @@ with open('file_exemples/input.csv', 'w') as my_file:
     for car in cars:
         writer.writerow(car.values())
 
-dir = os.path.join("C:\\", "Python", "Memory savers", "output_data")
+dir= os.path.join("C:\\", "Python", "Memory savers", "output_data")
 if not os.path.exists(dir):
     os.mkdir(dir)
 
@@ -107,6 +107,7 @@ sorted_medium_cars = list(filter(lambda medium: medium['price'] >= 1000 < 5000, 
 
 with open('output_data/medium_cars.json', 'w') as json_file:
     json.dump(sorted_medium_cars, json_file, indent=4)
+
 
 sorted_expensive_cars = list(filter(lambda expensive: expensive['price'] >= 5000, cars))
 
